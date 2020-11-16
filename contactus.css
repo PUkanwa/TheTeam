@@ -1,0 +1,70 @@
+.whole{
+    display:flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.whole p{
+    margin-top: 5%;
+}
+.whole2{
+    display:flex;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right:2%
+}
+
+
+.whole2 p{
+    margin-top: 5%;
+}
+
+
+.socialMedia{
+    display:flex;
+    flex-direction: column;
+}
+.textname{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.personPic img{
+    height: 300px;
+    width: 200px;
+    border: 10px solid purple;
+}
+.socialMedia img{
+    width: 50px;
+    padding: 20px;
+    height: 50px;
+}
+
+#head h1{
+ 
+    display: inline-block;
+border-bottom-right-radius: 100mm;
+background-color: blueviolet;
+width: 10%;
+padding-left: 10px;
+text-decoration-line: underline;
+    word-wrap: normal;
+}
+.names{
+    display: flex;
+}
+.names .second{
+    margin-left: 13%;
+}
+.joinus{
+    position: absolute;
+     bottom: 0; right: 0; 
+      text-align:right;
+      background-color: blueviolet;
+      width: 10%;
+      text-decoration-line: underline;
+      border-top-left-radius: 100mm;
+      padding-right: 25px;
+    }
