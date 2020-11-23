@@ -1,0 +1,77 @@
+.RecommedationsContainer {
+    width: 96%;
+    height: 825px;
+    padding: 2%;
+    background-color: #CCCCCC;
+
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+.photo {
+width: 150px;
+height: 250px;
+
+}
+.flex-child {
+    flex-basis: 25%;
+    flex-grow: 1;
+
+}
+
+.Centering {
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+
+.MenuBar {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #343434;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  body {
+      margin: 0%;
+  }
+
+.FooterBar {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #343434;
+    height: 35px;
+    text-align: center;
+}
+.footer {
+    color: #CCCCCC;
+    ;
+}
+
+.title {
+    background-color: #542C7C;
+    width: 30%;
+    clip-path: polygon(0%, 0%, 0%, 100%, 93%, 100%, 100%, 0%);
+}
