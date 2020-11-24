@@ -1,0 +1,118 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+header img {
+    width: 70px;
+    align-content: flex-start;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header ul li {
+  float: left;
+}
+
+
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.scrollmenu {
+    background-color: #542C7C; 
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    margin-top: 50px;
+}
+
+div.scrollmenu.item {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+div.scrollmenu a:hover {
+    background-color: white;
+}
+
+
+div.scrollmenu .item .title {
+    display: inline-block;
+    color: white;
+    text-align: start;
+        
+}
+
+div.scrollmenu .item {
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+div.scrollmenu img {
+    max-width: 200px;
+    max-height: inherit;
+    margin: 20px;
+}
+
+div.pagetitle {
+    background-color: #542C7C;
+    margin: 10px;
+}
+
+div.pagetitle h1 {
+    padding: 10px;
+    color: white;
+}
+
+div.pagetitle h2 {
+    padding: 10px;
+    color: white;
+}
+
+div.pagetitle a p {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.member {
+    background-color: #542C7C;
+    display: block;
+}
+
+.member img {
+    height: 250px;
+}
+
+.member h3 {
+    
+}
+
