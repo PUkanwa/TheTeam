@@ -1,25 +1,42 @@
 
-<?php
+  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
-echo '<nav>';
-            echo '<ul>';
-               echo '<li><a href="#homepage">Home</a></li>';
-               echo '<li><a href="displayevents.php" class="current">Events</a></li>';
-               echo '<li><a href="#members">Members</a></li>';
-                echo '<li><a href="#gallery">Gallery</a></li>';
-               echo '<li><a href="#upcomingmovies">Upcoming Movies</a></li>';
-               echo '<div class="dropdown">';
-    echo'<span >Join Us</span>';
-    
-    echo'<div class="dropdown-content">';
-       echo '<li><a class= "dropdown-link" href="testimonial.php">Testimonials</a></li>';
-       echo '<li><a class= "dropdown-link"  href="#joinus">Join Now</a></li>';
-   echo '</div>';
-echo '</div>';
-               echo '<li><a href="#contactus">Contact Us</a></li>';
+        <nav id="main-menu">
+            
+            <ul id="nav">
+                <li><a href="#"> <i class="fa fa-fw fa-home"></i> Home</a> </li>
 
-           echo '</ul>';
-       echo '</nav>';
-    
-    
-    ?>
+                <li><a href="#">Movies</a>
+                    
+                    <ul >
+                    <a class="dropdown-link" href="#">Upcoming Movies</a>
+                    <a class="dropdown-link" href="#">Trailers</a>
+                    <a class="dropdown-link" href="#">Recommendations</a>
+
+                    </ul>
+                    
+                </li>
+
+                <li><a href="#">Reviews</a> </li>
+
+
+                <li ><a href="#">Events</a></li>
+
+                <li><a href="#">Members</a></li>
+                
+                <li><a href="#">Join Us</a>
+                    
+                    <ul>
+                    <a class="dropdown-link" href="testimonial.php">Testimonials</a>
+                    <a class="dropdown-link" href="#">Join Now</a>
+                    </ul>
+
+                </li>
+
+                <li><a href="#">Contact us</a></li>
+                
+            </ul>
+            
+        </nav>
