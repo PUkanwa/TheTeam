@@ -1,28 +1,3 @@
-.ReviewsContainer {
-    width: 96%;
-    height: 735px;
-    padding: 2%;
-    
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: space-around;
-}
-
-.photo {
-    width: 225px;
-    height: 400px;
-    float: left;
-}
-
-.flex-child {
-    flex-basis: 25%;
-    flex-grow: 1;
-    background-color: #BBB;
-    padding-left: 4%;
-}
-
 ul {
     list-style-type: none;
     padding: 0%;
@@ -46,10 +21,10 @@ ul {
   li a:hover {
     background-color: #111;
   }
- 
-  body {
-    margin: 0%;
-}
+
+  
+
+
 .title {
   background-color: #542C7C;
   color: #CCCCCC;
@@ -68,14 +43,45 @@ ul {
 }
 .footer {
   color: #CCCCCC;
-  ;
+  
+}
+.photo {
+  width: 300px;
+  height: 500px;
+  float: left;
 }
 .text {
- width: 460px;
- font-size: 14.5px;
- text-align: justify;
+  font-size: 18px;
+  width: 600px;
+  margin: 0%;
+  text-align: justify;
+}
+.leftBox {
+float: left;
+background-color:white;
+width: 50%;
+
 
 }
-.flex-child img {
-  padding-right: 1%;
+
+.rightBox{
+  float: right;
+  background-color: white;
+  width: 50%;
 }
+
+body{
+  margin: 0%;
+}
+
+.movieBoxL {
+height: 650px;
+margin-right: 15%;
+float: right;
+}
+
+.movieBoxR {
+  height: 650px;
+  margin-left: 15%;
+  float: left;
+  }

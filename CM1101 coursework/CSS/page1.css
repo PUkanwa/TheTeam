@@ -35,6 +35,7 @@ height: 250px;
     margin: 0%;
     overflow: hidden;
     background-color: #343434;
+    height: 50px;
   }
   
   li {
@@ -50,7 +51,7 @@ height: 250px;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #4E4D4D;
   }
   body {
       margin: 0%;
@@ -72,6 +73,11 @@ height: 250px;
 
 .title {
     background-color: #542C7C;
+    color: #CCCCCC;
     width: 30%;
-    clip-path: polygon(0%, 0%, 0%, 100%, 93%, 100%, 100%, 0%);
+    height: 25px;
+    clip-path: polygon(0% 0%,0% 100%, 93% 100%,100% 0%)
+    
 }
+
+
