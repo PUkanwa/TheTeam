@@ -1,0 +1,108 @@
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #343434;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  
+
+
+.title {
+  background-color: #542C7C;
+  color: #CCCCCC;
+  width: 30%;
+  height: 25px;
+  clip-path: polygon(0% 0%,0% 100%, 93% 100%,100% 0%)
+}
+.FooterBar {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+  background-color: #343434;
+  height: 35px;
+  text-align: center;
+}
+.footer {
+  color: #CCCCCC;
+  
+}
+.photo {
+  width: 300px;
+  height: 500px;
+  float: left;
+}
+.text {
+  font-size: 18px;
+  width: 600px;
+  margin: 0%;
+  text-align: justify;
+}
+.leftBox {
+float: left;
+background-color:white;
+width: 50%;
+
+
+}
+
+.rightBox{
+  float: right;
+  background-color: white;
+  width: 50%;
+}
+
+body{
+  margin: 0%;
+}
+
+.movieBoxL1 {
+height: 600px;
+margin-right: 15%;
+margin-top: 1%;
+float: right;
+background-color: #bbbbbb;
+}
+
+.movieBoxR1 {
+  height: 600px;
+  margin-left: 15%;
+  margin-top: 1%;
+  float: left;
+  background-color: #bbbbbb;
+  }
+
+.movieBoxL2 {
+  height: 600px;
+  margin-right: 15%;
+  margin-top: 6%;
+  float: right;
+  background-color: #bbbbbb;
+  }
+    
+.movieBoxR2 {
+  height: 600px;
+  margin-left: 15%;
+  margin-top: 6%;
+  float: left;
+  background-color: #bbbbbb;
+  }
+

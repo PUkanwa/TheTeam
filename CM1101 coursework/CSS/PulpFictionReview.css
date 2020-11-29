@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #343434;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .title {
+    background-color: #542C7C;
+    color: #CCCCCC;
+    width: 30%;
+    height: 25px;
+    clip-path: polygon(0% 0%,0% 100%, 93% 100%,100% 0%) ;
+  }
+
+  .FooterBar {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #343434;
+    height: 35px;
+    text-align: center;
+  }
+  .footer {
+    color: #CCCCCC;
+  }
+
+  body {
+    margin: 0%;
+  }
+  .ReviewPhoto {
+      width: 475px;
+      height: 800px;
+      float: left;
+      padding: 10px;
+  }
+  .ReviewText {
+      font-size: 18px;
+      
+  }
+  .Ratings {
+      padding-left: 1%;
+  }
