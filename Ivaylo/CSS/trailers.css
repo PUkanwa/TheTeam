@@ -17,7 +17,6 @@
 
 /* Horizontal Menu */
 
-
 #nav li {
   list-style: none;
   float: left;  
@@ -28,7 +27,7 @@
   overflow: hidden;
   position: absolute;
   display: none;
-  padding:0;
+  padding: 0;
 }
 
 #nav a {
@@ -102,7 +101,7 @@
 /* Horizontal Scrollmenu */
 
 .scrollmenu {
-    background-color: #542C7C; 
+    background-color: #343434; 
     overflow: auto;
     white-space: nowrap;
     display: flex;
@@ -111,17 +110,15 @@
 
 .scrollmenu .item {
     display: inline-block;
-    color: white;
+    background-color: white;
     text-align: center;
     padding: 15px;
     text-decoration: none;
     margin: 10px;
-    border: 4px solid white;
+    margin-top: 10px;
+    border: 5px solid #542C7C;
 }
 
-.item:hover {
-    background-color: #8c55c3;
-}
 
 .scrollmenu .item .title {
     display: inline-block;
@@ -133,22 +130,26 @@
     margin: 0;
     font-size: 30px;
     font-family: sans-serif;
+    color: black;
 }
 
 .scrollmenu .item .title p {
     font-size: 20px;
     font-family: arial;
+    color: black;
+    text-align: left;
+    border: 1px solid black;
+    padding: 4px;
 }
 
 .scrollmenu .item a {
     text-decoration: none;
-    color: white;
+    color: #542C7C;
+    font-family: calibri;
+    font-size: 24px;
 }
 
 .scrollmenu .item {
-    margin-top: 10px;
-    min-width: 600px;
-    max-width: 600px;
 }
 
 .scrollmenu img {
@@ -157,22 +158,37 @@
 }
 
 .pagetitle {
-    background-color: #542C7C;
-    margin 10px;
-    padding: 10px;
+    background-color: #343434;
+    padding: 5px;
+    margin: 10px;
 }
 
 .pagetitleborder {
+    background-color: white;
+    padding: 10px;
     margin: 10px;
-    border: 4px solid white;
+    border: 5px solid #542C7C;
 }
 
 .pagetitle h1 {
     padding: 10px;
-    color: white;
+    color: black;
+    font-size: 50px;
+    font-family: arial;
 }
 
 .pagetitle h2 {
     padding: 10px;
-    color: white;
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.scrollmenutitle {
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: arial;
+    font-size: 25;
 }
