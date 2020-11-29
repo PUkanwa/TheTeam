@@ -1,0 +1,183 @@
+stylesheet.css
+
+/* navbar menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343434;
+  }
+
+li{
+    display: inline;
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a{
+    display: block;
+    padding:8px;
+    background-color: #343434;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:100%; 
+    border:1px solid #343434;
+    background-color:#343434;
+}
+
+nav li a:hover{ 
+    background-color:  #bbb;
+    color:#4e4d4d;
+    box-shadow: 5px 10px 30px #4e4d4d;
+    transition: all ease 0.2s;
+     
+ }
+
+ nav .menu li a{
+    height:33px;
+    line-height:33px;
+    margin:0px;
+    padding:0px 22px;
+    font-size:0.8rem;
+    text-transform:uppercase;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+
+    
+}
+
+nav li span:not(.dropdown-link, .current, .rating span){
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 15px
+
+
+}
+
+
+nav li, span{
+    float: left;
+    padding: 3px;
+    margin: 0%;  
+}
+    div li{
+    display: left;
+}
+
+div .input{
+   align-content: right;
+}
+
+.search{
+    align-items: right;
+    height:25px;
+    
+}
+
+.search input{
+    width:100%;
+    height:20px;
+    border:none;
+    outline:none;
+    background-color:white;
+    }
+
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #bbb;
+}
+
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background:white;
+    padding:50px;
+    margin:8% auto 0;
+    text-align: center;
+
+}
+
+.sign-up-form h1{
+    color: black;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin:10px 0;
+    width: 100%;
+    border:1px solid #bbb;
+    outline: none;
+}
+
+button{
+    color:#fff ;
+    width: 100%;
+    padding:10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+.sign-btn{
+    background-color: #542c7c;
+}
+.facebook-btn{
+background-color: #343434;
+}
+
+a{
+    text-decoration: none;
+    
+}
+hr{
+    margin-top:20px;
+    width: 80%;
+}
+
+.or{
+    background-color:#fff;
+    width:30px;
+    margin:-19px auto 10px;
+}
+
+img{
+    width: 70px;
+    margin-top:-50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#343434;
+    color: white;
+    text-align: center;
+  }
+
+.container a{
+      text-decoration: none;
+      color:#fff;
+  }
